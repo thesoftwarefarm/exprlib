@@ -1,0 +1,36 @@
+{
+    "name": "rezzza/exprlib",
+    "keywords": ["math", "expressions"],
+    "homepage": "https://github.com/rezzza/exprlib",
+    "description": "An expression parser in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smassey",
+            "homepage": "http://codehackit.blogspot.fr/"
+        },{
+            "name": "Community contributors",
+            "homepage": "https://github.com/rezzza/exprlib"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload":     {
+        "psr-0": {
+            "exprlib": "src/"
+        }
+    },
+    "require-dev": {
+        "mageekguy/atoum": "master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
