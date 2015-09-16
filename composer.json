@@ -1,7 +1,7 @@
 {
-    "name": "rezzza/exprlib",
+    "name": "thesoftwarefarm/exprlib",
     "keywords": ["math", "expressions"],
-    "homepage": "https://github.com/rezzza/exprlib",
+    "homepage": "https://github.com/thesoftwarefarm/exprlib",
     "description": "An expression parser in PHP",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
             "homepage": "http://codehackit.blogspot.fr/"
         },{
             "name": "Community contributors",
-            "homepage": "https://github.com/rezzza/exprlib"
+            "homepage": "https://github.com/thesoftwarefarm/exprlib"
         }
     ],
     "require": {
