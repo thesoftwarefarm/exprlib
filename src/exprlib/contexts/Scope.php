@@ -76,6 +76,10 @@ class Scope implements IfContext
             $this->builder->pushContext(new scope\Sum($token));
         } elseif ($token === 'avg(') {
             $this->builder->pushContext(new scope\Avg($token));
+        } elseif ($token === 'max(') {
+            $this->builder->pushContext(new scope\Max($token));
+        } elseif ($token === 'min(') {
+            $this->builder->pushContext(new scope\Min($token));
         } elseif ($token === 'tan(') {
             $this->builder->pushContext(new scope\Tangent($token));
         } elseif ($token === 'sqrt(') {

@@ -76,6 +76,8 @@ class Parser
                 |cos\(
                 |sum\(
                 |avg\(
+                |max\(
+                |min\(
                 |tan\(
                 |sqrt\(
                 |if\(
