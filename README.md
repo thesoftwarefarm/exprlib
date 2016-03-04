@@ -1,11 +1,13 @@
 exprlib - PHP
 =============
 
-[![Build Status](https://secure.travis-ci.org/rezzza/exprlib.png)](http://travis-ci.org/rezzza/exprlib)
+[![Build Status](https://secure.travis-ci.org/TheSoftwareFarm/exprlib.png)](http://travis-ci.org/TheSoftwareFarm/exprlib)
 
-## Look at [Hoa/Math](https://github.com/hoaproject/Math), this library is no more maintained.
+This library was forked from rezzza/exprlib, since it was abandoned and we think it's still useful.
 
 An expression parser in PHP, code inspired from [codehackit](http://codehackit.blogspot.fr/2011/08/expression-parser-in-php.html)
+
+An alternative to this is [Hoa/Math](https://github.com/hoaproject/Math)
 
 List of functions and features:
 
@@ -20,6 +22,8 @@ List of functions and features:
 - exp
 - sum
 - avg
+- min
+- max
 - if (condition, than, else)
 - var placing with {{varName}}
 
@@ -62,6 +66,10 @@ exprlib\Parser::build('avg(10, 20, 30)')->evaluate(); // 20
 exprlib\Parser::build('log(0)')->evaluate(); // -INF
 exprlib\Parser::build('log(0)*-1')->evaluate(); // INF
 exprlib\Parser::build(sprintf('acos(%s)', rad2deg(8))->evaluate(); // NAN
+
+// min-max
+exprlib\Parser::build('max(10,20,30)')->evaluate(); // 30
+exprlib\Parser::build('min(10,20,30)')->evaluate(); // 10
 
 // if-elsing
 exprlib\Parser::build('if(1=1, 1, 0)')->evaluate() // 1

@@ -22,7 +22,7 @@
         }
     },
     "require-dev": {
-        "mageekguy/atoum": "master"
+        "atoum/atoum": "master"
     },
     "config": {
         "bin-dir": "bin"
