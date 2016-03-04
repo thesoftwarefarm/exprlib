@@ -90,6 +90,10 @@ class Parser extends atoum\test
             array('sum(10, 20, 30)', 60),
             // avg
             array('avg(10, 20, 30)', 20),
+            // max
+            array('max(10, 20, 30)', 30),
+            // min
+            array('min(10, 20, 30)', 10),
             // special cases
             array('log(0)', -INF),
             array('log(0)*-1', INF),
